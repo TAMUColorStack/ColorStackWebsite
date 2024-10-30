@@ -1,38 +1,150 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+    overflow:hidden;
+}
+.navbar {
+    background-color: #500000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    box-sizing: border-box;
+    padding: 0 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    z-index: 1;
+    font-family: 'Raleway', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo-container {
+    display: flex;
+    align-items: center; 
+    gap: 15px; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar-tamu-logo {
+    width: 60px;
+    height: auto;
+    object-fit: contain;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-links {
+    list-style: none;
+    display: flex;
+    align-items: center; 
+    margin: 0;
+    padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-links li {
+    margin-left: 25px;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    color: #fcb532;
+}
+
+
+.cstack-header {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    overflow: hidden;
+}
+
+.cstack-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 105vw;
+    height: 105vh;
+    background-image: url('/public/pictures/zachnight1.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    z-index: -1;
+    clip-path: inset(0 0 -5px 0);
+    overflow:hidden;
+}
+
+
+.welcome-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px; 
+}
+
+.welcome-message {
+    color: white;
+    text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px 1px 0 black,
+         1px 1px 0 black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4em;
+    margin: 0; 
+}
+
+
+.sub-welcome-text {
+    color: rgba(255, 255, 255, 0.9); 
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    max-width: 80%; 
+    margin: 0; 
+    text-align: center;
+}
+
+
+.block-line {
+    display:block;
+    text-align:center;
+}
+
+.about-us {
+    height:70vh;
+    width: 100vw;
+}
+
+.about-us-header, .events-header, .resources-header, .contact-header, .sign-in-header{
+    text-align:center;
+    padding-top:100px;
+    margin:auto;
+    font-size: 3em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.about-us-description {
+    text-align:center;
+    padding:auto;
+    margin:auto;
+    padding: 10px 120px;
+    font-size: 1.5em;
+    font-family: 'Raleway', sans-serif;
 }
