@@ -79,7 +79,7 @@
     left: 0;
     width: 105vw;
     height: 105vh;
-    background-image: url("../../public/pictures/zachnight1.jpg");
+    background-image: url("../pictures/zachnight1.jpg");
     background-size: cover;
     background-position: center;
     filter: blur(8px);
