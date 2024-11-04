@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
-import About from './pages/About';
-import Events from './pages/Events';
-import Resources from './pages/Resources';
-import Contact from './pages/Contact';
-import SignIn from './pages/SignIn';
-import Home from './pages/Home';
+import About from './pages/about/about.jsx';
+import Events from './pages/events/events.jsx';
+import Resources from './pages/resources/resources.jsx';
+import Contact from './pages/contact/contact.jsx';
+import SignIn from './pages/signin/signin.jsx';
+import Home from './pages/home/home.jsx';
 
 function App() {
   return (
@@ -13,10 +13,10 @@ function App() {
       <header className="navbar">
         <div className="logo-container">
           <a href="https://www.colorstack.org/" target="_blank" rel="noopener noreferrer">
-            <img src="./pictures/colorstack_logonational.jpg" className="navbar-logo" alt="National Logo" />
+            <img src="../pictures/colorstack_logonational.jpg" className="navbar-logo" alt="National Logo" />
           </a>
           <Link to="/">
-            <img src="./pictures/tamucolorstacklogo.png" className="navbar-tamu-logo" alt="TAMU Logo" />
+            <img src="../pictures/tamucolorstacklogo.png" className="navbar-tamu-logo" alt="TAMU Logo" />
           </Link>
         </div>
 
