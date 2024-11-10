@@ -120,12 +120,6 @@
     text-align: center;
 }
 
-.about-us {
-    height: 70vh;
-    width: 100vw;
-}
-
-.about-us-header,
 .events-header,
 .resources-header,
 .contact-header,
@@ -137,11 +131,3 @@
     font-family: "Raleway", sans-serif;
 }
 
-.about-us-description {
-    text-align: center;
-    padding: auto;
-    margin: auto;
-    padding: 10px 120px;
-    font-size: 1.5em;
-    font-family: "Raleway", sans-serif;
-}

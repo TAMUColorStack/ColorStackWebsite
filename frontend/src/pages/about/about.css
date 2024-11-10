@@ -1,0 +1,47 @@
+.about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 50px 20px;
+    min-height: 100vh;
+    color: #fff;
+}
+
+/* Container for the text */
+.about-content {
+    max-width: 800px;
+    background-color: #500000;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+/* Text styling */
+.about-text h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.about-text p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.about-us-link {
+    color: #fcb532 !important;
+    text-decoration: none; /* Optional: remove underline */
+}
+
+.about-us-link:hover {
+    color: #ffdd66; /* Adjust hover color if desired */
+}
+
+/* Highlighted text */
+.highlight {
+    color: #fcb532; /* Adjust this color to suit your design */
+    font-style: italic;
+}

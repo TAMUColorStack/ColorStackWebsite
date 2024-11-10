@@ -12,15 +12,13 @@ function App() {
     <Router>
       <header className="navbar">
         <div className="logo-container">
-          <a href="https://www.colorstack.org/" target="_blank" rel="noopener noreferrer">
-            <img src="../pictures/colorstack_logonational.jpg" className="navbar-logo" alt="National Logo" />
-          </a>
           <Link to="/">
-            <img src="../pictures/tamucolorstacklogo.png" className="navbar-tamu-logo" alt="TAMU Logo" />
+            <img src="./pictures/tamucolorstacklogo.png" className="navbar-tamu-logo" alt="TAMU Logo" />
           </Link>
         </div>
 
         <ul className="navbar-links">
+          <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About Us</Link></li>
           <li><Link to="/events">Events</Link></li>
           <li><Link to="/resources">Resources</Link></li>
