@@ -1,0 +1,7 @@
+#subContactUsText{
+    color: gray
+}
+.narrow-container {
+    max-width: 800px; /* Set the width you want */
+    margin: 0 auto;   /* Center the container */
+  }

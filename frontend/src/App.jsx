@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import About from './pages/about/about.jsx';
 import Events from './pages/events/events.jsx';
@@ -10,7 +11,7 @@ import Home from './pages/home/home.jsx';
 function App() {
   return (
     <Router>
-      <header className="navbar">
+      <header className="navbar fixed-top">
         <div className="logo-container">
           <Link to="/">
             <img src="./pictures/tamucolorstacklogo.png" className="navbar-tamu-logo" alt="TAMU Logo" />
@@ -26,15 +27,18 @@ function App() {
           <li><Link to="/sign-in">Sign In</Link></li>
         </ul>
       </header>
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/events" element={<Events />} />
-        <Route path="/resources" element={<Resources />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/sign-in" element={<SignIn />} />
-      </Routes>
+      
+     {/* this is done to push the content down below the navbar (which is fixed)*/}
+      <main style={{ paddingTop: '60px' }}> 
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/resources" element={<Resources />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/sign-in" element={<SignIn />} />
+        </Routes>
+      </main>
     </Router>
   );
 }
