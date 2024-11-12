@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, NavLink } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import About from './pages/about/about.jsx';
@@ -13,21 +13,21 @@ function App() {
     <Router>
       <header className="navbar fixed-top">
         <div className="logo-container">
-          <Link to="/">
+          <NavLink to="/">
             <img src="./pictures/tamucolorstacklogo.png" className="navbar-tamu-logo" alt="TAMU Logo" />
-          </Link>
+          </NavLink>
         </div>
 
         <ul className="navbar-links">
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About Us</Link></li>
-          <li><Link to="/events">Events</Link></li>
-          <li><Link to="/resources">Resources</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
-          <li><Link to="/sign-in">Sign In</Link></li>
+          <li><NavLink to="/">Home</NavLink></li>
+          <li><NavLink to="/about">About Us</NavLink></li>
+          <li><NavLink to="/events">Events</NavLink></li>
+          <li><NavLink to="/resources">Resources</NavLink></li>
+          <li><NavLink to="/contact">Contact</NavLink></li>
+          <li><NavLink to="/sign-in">Sign In</NavLink></li>
         </ul>
       </header>
-      
+
      {/* this is done to push the content down below the navbar (which is fixed)*/}
       <main style={{ paddingTop: '60px' }}> 
         <Routes>

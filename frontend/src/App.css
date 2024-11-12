@@ -61,6 +61,9 @@
 .navbar-links a:hover {
     color: #fcb532;
 }
+.navbar-links a.active {
+    color: #fcb532; /* or any color you prefer for the active link */
+}
 
 .cstack-header {
     position: relative;
