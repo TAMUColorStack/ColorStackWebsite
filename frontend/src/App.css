@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 
-* {
-    overflow: hidden;
-}
+
 .navbar {
     background-color: #500000;
     display: flex;
