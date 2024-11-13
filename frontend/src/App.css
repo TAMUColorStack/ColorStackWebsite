@@ -2,8 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 
 * {
-    overflow: hidden;
+    /* overflow: hidden; */ /* <-- what is the point of this? */
+    box-sizing: border-box;
 }
+
+:root {
+    --bs-primary: #500000; /* Replace with your desired color */
+}
+
 .navbar {
     background-color: #500000;
     display: flex;
@@ -59,6 +65,9 @@
 
 .navbar-links a:hover {
     color: #fcb532;
+}
+.navbar-links a.active {
+    color: #fcb532; /* or any color you prefer for the active link */
 }
 
 .cstack-header {
