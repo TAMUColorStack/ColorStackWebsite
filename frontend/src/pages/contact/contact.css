@@ -1,7 +1,31 @@
 #subContactUsText{
     color: gray
 }
+#subContactThanksText{
+    color: gray
+}
 .narrow-container {
     max-width: 800px; /* Set the width you want */
     margin: 0 auto;   /* Center the container */
-  }
+}
+
+#submitButtom{
+    background-color: #800000;
+    color: #ffffff;
+}
+
+.btn-primary {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+    border-width: 6px; 
+    color: #ffffff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+    border-width: 6px; 
+    color: #ffffff !important; 
+}

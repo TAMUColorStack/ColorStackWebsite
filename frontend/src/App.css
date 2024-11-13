@@ -5,6 +5,11 @@
     /* overflow: hidden; */ /* <-- what is the point of this? */
     box-sizing: border-box;
 }
+
+:root {
+    --bs-primary: #500000; /* Replace with your desired color */
+}
+
 .navbar {
     background-color: #500000;
     display: flex;

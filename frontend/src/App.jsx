@@ -5,6 +5,7 @@ import About from './pages/about/about.jsx';
 import Events from './pages/events/events.jsx';
 import Resources from './pages/resources/resources.jsx';
 import Contact from './pages/contact/contact.jsx';
+import ContactThanks from './pages/contact/contactThanks.jsx'
 import SignIn from './pages/signin/signin.jsx';
 import Home from './pages/home/home.jsx';
 
@@ -36,6 +37,7 @@ function App() {
           <Route path="/events" element={<Events />} />
           <Route path="/resources" element={<Resources />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/contactThanks" element={<ContactThanks />} />
           <Route path="/sign-in" element={<SignIn />} />
         </Routes>
       </main>
