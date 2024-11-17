@@ -1,0 +1,46 @@
+/* resources.css */
+.resources {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resources-header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.resources-subheader {
+    font-size: 1.25rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.resources-content-box {
+    width: 100%;
+    aspect-ratio: 3/1;
+    background-color: #b19b7d;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .resources-header {
+        font-size: 2rem;
+    }
+    
+    .resources-subheader {
+        font-size: 1rem;
+    }
+    
+    .resources-content-box {
+        aspect-ratio: 2/1;
+    }
+}
