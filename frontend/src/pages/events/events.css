@@ -1,0 +1,22 @@
+.events-header{
+    font-size: 60px;
+}
+
+.test {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.events-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 140px;
+}
+
+.day-image{
+    width: 100px;
+    height: 100px;
+}
