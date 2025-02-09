@@ -1,0 +1,39 @@
+body {
+    background-image: radial-gradient(circle, #d1d1d1 1px, transparent 1px);
+    background-size: 20px 20px;
+    background-color: white;
+}
+
+.header {
+    margin: auto;
+    width: 500px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.bold-text {
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+
+.highlight-yellow {
+    color: #fbbf24; 
+    font-weight: bold;
+}
+
+.highlight-blue {
+    background-color: #93c5fd; 
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.paragraph-spacing {
+    margin-top: 20px; 
+}
+
