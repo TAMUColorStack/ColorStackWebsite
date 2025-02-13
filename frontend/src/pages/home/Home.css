@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -6,14 +7,15 @@ body {
 
 .cstack-header {
     position: relative;
-    width: 100vw;
-    height: 100vh;
+    width: 100%; 
+    height: 100vh; 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     overflow-x: hidden;
 }
+
 
 .cstack-header::before {
     content: "";
@@ -49,14 +51,14 @@ span.highlight {
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
         1px 1px 0 black;
     font-family: 'Inter', sans-serif;
-    font-size: 4em;
+    font-size: 4.25em;
     margin: 0;
 }
 
 .sub-welcome-text {
     color: rgba(255, 255, 255, 0.9);
     font-family: 'Inter', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.75em;
     max-width: 80%;
     margin: 0;
     text-align: center;
