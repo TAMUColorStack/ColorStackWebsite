@@ -13,8 +13,6 @@
 }
 
 
-  
-
   .logo img {
     color: white;
     font-size: 1.2rem;
@@ -41,4 +39,5 @@
   
   .navbar-links li a:hover {
     color: #fcb532;
+    cursor: pointer;
   }
