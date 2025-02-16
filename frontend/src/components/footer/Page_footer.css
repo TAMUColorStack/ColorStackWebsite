@@ -1,1 +1,30 @@
+.footer {
+    background-color: #500000;
+    width: 100%;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;  
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    white-space: nowrap;
+
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
     
+
+}
+

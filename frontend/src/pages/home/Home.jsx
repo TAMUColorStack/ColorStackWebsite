@@ -1,6 +1,8 @@
-    import './Home.css'
+import './Home.css'
+import MissionStatement from './MissionStatement'
 
-    export default function Home(){
+
+export default function Home(){
 
         return (
             <>
@@ -13,6 +15,8 @@
                         </p>
                     </div>
                 </div>
+                 <MissionStatement/>
+
             </>
         )
     }
