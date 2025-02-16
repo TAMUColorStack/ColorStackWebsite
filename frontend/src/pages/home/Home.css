@@ -1,0 +1,70 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.cstack-header {
+    position: relative;
+    width: 100%; 
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+
+.cstack-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/zachnight1.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    transform: scale(1.1);
+    z-index: -1;
+}
+
+
+span.highlight {
+    color: #fcb532;
+}   
+
+.welcome-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.welcome-message {
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+        1px 1px 0 black;
+    font-family: 'Inter', sans-serif;
+    font-size: 4.25em;
+    margin: 0;
+}
+
+.sub-welcome-text {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Inter', sans-serif;
+    font-size: 1.75em;
+    max-width: 80%;
+    margin: 0;
+    text-align: center;
+}
+
+.block-line {
+    display: block;
+    text-align: center;
+}
