@@ -18,5 +18,13 @@
     text-decoration: none;
     font-size: 1rem;
     white-space: nowrap;
+
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    
+
 }
 
