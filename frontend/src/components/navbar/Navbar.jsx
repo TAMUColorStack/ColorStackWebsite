@@ -7,7 +7,7 @@ export default function Navbar(){
     }
 
     const goToAbout = () =>{
-        navigate('/about')
+        navigate('/about_us')
     }
 
     const goToSignIn = () => {

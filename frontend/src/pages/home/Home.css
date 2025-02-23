@@ -13,18 +13,18 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 
 .cstack-header::before {
     content: "";
     position: absolute;
-    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-image: url("/zachnight1.jpg");
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     filter: blur(8px);
@@ -51,14 +51,14 @@ span.highlight {
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
         1px 1px 0 black;
     font-family: 'Inter', sans-serif;
-    font-size: 4.25em;
+    font-size: 68px;
     margin: 0;
 }
 
 .sub-welcome-text {
     color: rgba(255, 255, 255, 0.9);
     font-family: 'Inter', sans-serif;
-    font-size: 1.75em;
+    font-size: 28px;
     max-width: 80%;
     margin: 0;
     text-align: center;

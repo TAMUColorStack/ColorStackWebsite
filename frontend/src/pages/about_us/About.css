@@ -1,0 +1,29 @@
+.about-mission-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 40px 20px;
+    height: 100vh;
+    width: 100%;
+}
+
+.mission-statement-header {
+    font-size: 48px;
+    margin: 20px 0;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    
+}
+
+.mission-statement-subtext {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 8px 20px;
+    max-width: 80%;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
