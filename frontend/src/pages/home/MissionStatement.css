@@ -6,7 +6,7 @@ body {
 
 .header {
     margin: auto;
-    width: 500px;
+    width: 700px;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -17,7 +17,7 @@ body {
 
 .bold-text {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 30px;
     color: black;
 }
 
