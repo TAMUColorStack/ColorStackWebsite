@@ -24,7 +24,16 @@
 .footer-link:hover {
     text-decoration: underline;
     cursor: pointer;
-    
+
 
 }
+.fa-brands{
+    color: white;
+    margin-right: 30px;
+}
+
+.fa-solid{
+    margin-right: 30px;
+}
+
 
