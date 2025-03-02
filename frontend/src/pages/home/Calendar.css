@@ -1,0 +1,38 @@
+.calendar-header {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+/* Calendar Container */
+.calendar-container {
+    text-align: center;
+    max-width: 800px;
+    height: 100vh;
+    max-height: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Inter', 'sans-serif';
+  }
+  
+  /* Embed Box */
+  .calendar-embed {
+    width: 100%;
+    height: 400px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Google Calendar Frame */
+  .calendar-embed iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
