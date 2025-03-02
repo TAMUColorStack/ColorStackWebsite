@@ -8,13 +8,12 @@ export default function Page_footer(){
               href="mailto:tamucolorstack@gmail.com"
               className="footer-link"
             >
-              <a classname= "Icons">
-              <i class="fa-solid fa-envelope"></i>
+              <a className= "Icons">
+              <i className="fa-solid fa-envelope"></i>
               </a>
               tamucolorstack@gmail.com
             </a>
             
-            {/* <i class="fa-brands fa-instagram"></i> */}
             <a 
               href="https://instagram.com/tamucolorstack"
               target="_blank"
@@ -22,7 +21,7 @@ export default function Page_footer(){
               className="footer-link"
             >
              <a  className="Icon">
-              <i class="fa-brands fa-instagram"></i>
+              <i className="fa-brands fa-instagram"></i>
              </a> 
               instagram.com/tamucolorstack
             </a>
@@ -34,7 +33,7 @@ export default function Page_footer(){
               className="footer-link"
             >
               <a className="Icons">
-              <i class="fa-brands fa-linkedin"></i>
+              <i className="fa-brands fa-linkedin"></i>
               </a>
               linkedin.com/company/tamucolorstack
             </a>

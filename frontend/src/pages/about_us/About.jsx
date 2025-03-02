@@ -1,4 +1,5 @@
 import './About.css'
+import CardContainer from './CardContainer'
 
 export default function About(){
     return (
@@ -11,6 +12,7 @@ export default function About(){
                 we foster an inclusive campus environment that opens doors and builds a more diverse tech industry.
                 </p>
             </div>
+            <CardContainer/>
         </>
     )
 }
