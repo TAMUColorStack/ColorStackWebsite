@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import { gapi } from "gapi-script";
 import "./Calendar.css";
 
-const CLIENT_ID = "201457165566-tpk4jer3acoehk92d2i1iplvf0golohs.apps.googleusercontent.com"; 
-const API_KEY = "AIzaSyD_n3O5fkqd7wTxGiCQJ6Go-zu4Jh84_WM"; 
+
+const CLIENT_ID = import.meta.env.VITE_CLIENT_ID; 
+const API_KEY = import.meta.env.VITE_API_KEY;
 const DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest"];
 const SCOPES = "https://www.googleapis.com/auth/calendar.events";
 
