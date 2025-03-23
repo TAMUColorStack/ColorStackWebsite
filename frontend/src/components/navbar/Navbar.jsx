@@ -14,6 +14,10 @@ export default function Navbar(){
         navigate('/sign_in')
     }
 
+    const goToJoinUs = () => {
+        navigate('/join_us')
+    }
+
     return (
         <>
         <nav class="navbar">
@@ -24,6 +28,7 @@ export default function Navbar(){
                 <li><a type="button" onClick={ goToHome}>Home</a></li>
                 <li><a type="button" onClick={ goToAbout}>About</a></li>
                 <li><a type="button" onClick={ goToSignIn}>Sign In</a></li>
+                <li><a type="button" onClick={ goToJoinUs}>Join Us</a></li>
             </ul>
         </nav>
         </>

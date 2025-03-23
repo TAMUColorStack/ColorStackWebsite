@@ -1,0 +1,52 @@
+.join-us-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+    padding: 40px 20px;
+    max-width: 1000px;
+  }
+  
+  .join-us-header {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  
+  .join-us-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 10px 0;
+    max-width: 90%;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+  }
+  
+  .join-us-text a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+  }
+  
+  .join-us-text a:hover {
+    border-bottom: 2px solid #000;
+  }
+  
+  .instagram-embed,
+  .discord-embed {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .instagram-embed blockquote {
+    max-width: 400px;
+  }
+  
