@@ -13,6 +13,7 @@ export default function Home(){
                         <p className="sub-welcome-text">
                             Empowering Black & Latinx CS students to launch successful
                             tech careers!
+                            ldk'lf lsakfsakfksd;alf
                         </p>
                     </div>
                 </div>
