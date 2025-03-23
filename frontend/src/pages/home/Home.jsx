@@ -14,6 +14,9 @@ export default function Home(){
                             Empowering Black & Latinx CS students to launch successful
                             tech careers!
                         </p>
+                        <p>
+                            This is a test
+                        </p>
                     </div>
                 </div>
                  <MissionStatement/>
