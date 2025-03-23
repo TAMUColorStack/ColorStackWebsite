@@ -1,0 +1,56 @@
+.card {
+    width: 280px;
+    background-color: #660000;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 15px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.card-image {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px 0;
+}
+
+.card-content h2 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.card-content p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #f0f0f0;
+}
+
+.linkedin-icon {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 5px;
+    margin-top: -80px;
+    margin-bottom: 80px;
+}
