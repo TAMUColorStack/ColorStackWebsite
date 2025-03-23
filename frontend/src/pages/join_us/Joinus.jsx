@@ -3,10 +3,14 @@ import './Joinus.css'
 
 export default function Joinus(){
     useEffect(() => {
-        const script = document.createElement('script');
-        script.async = true;
-        script.src = 'https://www.instagram.com/embed.js';
-        document.body.appendChild(script);
+        if (window.instgrm && window.instgrm.Embeds && typeof window.instgrm.Embeds.process === 'function') {
+            window.instgrm.Embeds.process();
+          } else {
+            const script = document.createElement('script');
+            script.async = true;
+            script.src = 'https://www.instagram.com/embed.js';
+            document.body.appendChild(script);
+          }
       }, []);
     return (
         <>  
@@ -24,7 +28,7 @@ export default function Joinus(){
                 <blockquote
                     className="instagram-media"
                     data-instgrm-captioned
-                    data-instgrm-permalink="https://www.instagram.com/p/DHZsOfrtjay/"
+                    data-instgrm-permalink="https://www.instagram.com/p/C_lmIISPN7R/"
                     data-instgrm-version="14"
                     style={{
                         background: '#FFF',
