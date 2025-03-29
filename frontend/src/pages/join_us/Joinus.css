@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
 .join-us-container {
     display: flex;
     flex-direction: column;
@@ -9,7 +11,7 @@
   
   .join-us-header {
     font-size: 48px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     letter-spacing: 1px;

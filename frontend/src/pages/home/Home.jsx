@@ -1,6 +1,7 @@
 import './Home.css'
 import MissionStatement from './MissionStatement'
 import Calendar from './Calendar'
+import About from './About'
 
 
 
@@ -18,6 +19,7 @@ export default function Home(){
                     </div>
                 </div>
                  <MissionStatement/>
+                 <About/>
                  <Calendar/>
             </>
         )
