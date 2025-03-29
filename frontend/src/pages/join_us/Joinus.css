@@ -50,3 +50,29 @@
     max-width: 400px;
   }
   
+  .discord-join-button {
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    margin: 30px auto -10px;
+    background-color: #5865F2;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Inter', 'sans-serif';
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+  }
+
+  .discord-join-button:hover {
+    background-color: #4752C4;
+    transform: translateY(-2px);
+  }
+
+  .discord-join-button:active {
+    transform: translateY(0);
+  }

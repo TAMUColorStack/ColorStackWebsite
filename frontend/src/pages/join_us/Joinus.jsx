@@ -15,7 +15,7 @@ export default function Joinus(){
     return (
         <>  
             <div className="join-us-container">
-                <h2 className="join-us-header"> Thank you for your interest in ColorStack!</h2>
+                <h2 className="join-us-header">  Thank you for your interest in ColorStack!</h2>
                 <p className="join-us-text">
                 To join our national chapter apply at the link <a className="cstack-national-link" href="https://www.colorstack.org/" target="_blank"><strong>here</strong></a>!
                 If you would like an officer referral, reach out to us through Instagram or at a General Meeting!
@@ -44,16 +44,15 @@ export default function Joinus(){
                     />
 
                 </div>
-                <div className = "discord-embed">
-                <iframe
-                    src="https://discord.com/widget?id=1278389749945733272&theme=dark"
-                    width="350"
-                    height="500"
-                    allowTransparency="true"
-                    frameBorder="0"
-                    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-                    title="Discord Widget"
-                /> 
+                <div className = "discord">
+                    <a
+                        href="https://discord.gg/ycCFTmcWh4"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="discord-join-button"
+                    >
+                        Join Our Discord
+                    </a>
                 </div>
             </div>
         </>
