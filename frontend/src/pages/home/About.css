@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+.about-mission-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -60px auto 0;   
+    padding: 40px 20px;
+    height: 500px;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+.about-mission-statement-header {
+    font-size: 48px;
+    margin: -40px auto 20px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+p.about-mission-statement-subtext {
+    margin: 30px auto;
+}
+
+.about-mission-statement-subtext {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 8px 20px;
+    max-width: 80%;
+    text-align: center;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.highlight-cstack-yellow {
+    font-weight: bold;
+    color: #fbbf24; 
+    font-weight: bold;
+}
+
+.highlight-maroon {
+    font-weight: bold;
+    color: #500000; 
+    font-weight: bold;
+}
