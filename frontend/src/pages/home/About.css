@@ -5,16 +5,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: -60px auto 0;   
+    margin: 30px auto;   
     padding: 40px 20px;
-    height: 500px;
+    height: auto;
     width: 100%;
     font-family: 'Inter', sans-serif;
 }
 
 .about-mission-statement-header {
     font-size: 48px;
-    margin: -40px auto 20px;
+    margin: 30px auto;
     text-align: center;
     letter-spacing: 1px;
 }
@@ -27,7 +27,7 @@ p.about-mission-statement-subtext {
     font-size: 30px;
     font-weight: 400;
     line-height: 1.5;
-    margin: 8px 20px;
+    margin: 0 auto;
     max-width: 80%;
     text-align: center;
 }
