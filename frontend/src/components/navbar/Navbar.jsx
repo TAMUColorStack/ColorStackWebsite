@@ -26,8 +26,12 @@ export default function Navbar(){
             </div>
             <ul className="navbar-links">
                 <li><a type="button" onClick={ goToHome}>Home</a></li>
-                <li><a type="button" onClick={ goToSignIn}>Sign In</a></li>
+                <li><a type = 'button' onClick={goToAbout}>About</a></li>
+                {/* <li><a type="button" onClick={ goToSignIn}>Sign In</a></li> */}
+                
                 <li><a type="button" onClick={ goToJoinUs}>Join Us</a></li>
+                
+
             </ul>
         </nav>
         </>
