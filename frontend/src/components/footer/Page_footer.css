@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
 .footer {
     background-color: #500000;
     width: 100%;
@@ -5,6 +7,7 @@
     position: fixed;
     bottom: 0;
     left: 0;
+    font-family: 'Inter', sans-serif;
 }
 
 .footer-content {
