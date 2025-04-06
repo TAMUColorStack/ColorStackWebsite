@@ -2,7 +2,7 @@ import Card from './Card'
 import './Card.css'
 import NicholasMat from './NicholasMat.png'
 import Nicole from './Nicole.png'
-import Zack from './Zack.png'
+import Zack from './zack_pic.jpg'
 import Andre from './Andre.png'
 
 
