@@ -1,4 +1,3 @@
-# Deploy Vite React app in 'portfolio/' folder to GitHub Pages
 name: Deploy Vite site to GitHub Pages
 
 on:
@@ -31,11 +30,11 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        working-directory: ./portfolio
+        working-directory: ./frontend
         run: npm ci
 
       - name: Build site
-        working-directory: ./portfolio
+        working-directory: ./frontend
         run: npm run build
 
       - name: Upload artifact
