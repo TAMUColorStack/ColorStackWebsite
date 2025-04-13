@@ -31,9 +31,15 @@ body {
     padding: 2px 4px;
     border-radius: 3px;
     font-weight: bold;
+    width: 290px;
+    display: inline;
 }
 
 .paragraph-spacing {
     margin-top: 20px; 
+}
+
+p.statement {
+    display: inline;
 }
 
