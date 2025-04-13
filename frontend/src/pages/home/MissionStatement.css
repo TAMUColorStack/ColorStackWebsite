@@ -36,9 +36,15 @@ body {
     background-color: #93c5fd; 
     border-radius: 3px;
     font-weight: bold;
+    width: 290px;
+    display: inline;
 }
 
 .paragraph-spacing {
     margin: 50px auto; 
+}
+
+p.statement {
+    display: inline;
 }
 
