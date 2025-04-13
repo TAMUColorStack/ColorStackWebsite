@@ -2,7 +2,6 @@
 
 body {
     display:flex;
-    background-image: radial-gradient(circle, #d1d1d1 1px, transparent 1px);
     background-size: 20px 20px;
     background-color: white;
     font-family: 'Inter', 'sans-serif';
