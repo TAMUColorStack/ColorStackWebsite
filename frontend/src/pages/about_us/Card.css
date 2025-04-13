@@ -10,10 +10,12 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 .card:hover {
     transform: translateY(-10px) scale(1.02);
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
 }
+
 .card-image {
     width: 200px;
     height: 200px;
@@ -22,6 +24,7 @@
     overflow: hidden;
     transition: transform 0.3s ease;
 }
+
 .card:hover .card-image {
     transform: scale(1.05);
 }
@@ -50,7 +53,7 @@
     margin: 5px 0;
     font-size: 18px;
     color: #f0f0f0;
-    transition: transform 0.1s ease, color 0.1s ease;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .card:hover .card-content p {

@@ -3,3 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --primary-color: #500000;
+    --secondary-color: #fcb532;
+    --text-color: #333;
+    --light-text: #f8f8f8;
+    --background-color: #fff;
+    --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --transition-speed: 0.3s;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color var(--transition-speed) ease;
+}
+
+button {
+    cursor: pointer;
+    transition: all var(--transition-speed) ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
