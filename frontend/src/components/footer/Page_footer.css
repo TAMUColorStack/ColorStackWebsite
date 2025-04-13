@@ -39,4 +39,9 @@
     margin-right: 30px;
 }
 
+@media (max-width: 600px) {
+    .footer-link {
+      font-size: 0.8rem;
+    }
+  }
 
