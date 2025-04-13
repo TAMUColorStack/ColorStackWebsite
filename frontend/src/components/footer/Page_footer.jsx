@@ -8,10 +8,8 @@ export default function Page_footer(){
               href="mailto:tamucolorstack@gmail.com"
               className="footer-link"
             >
-              <a className= "Icons">
               <i className="fa-solid fa-envelope"></i>
-              </a>
-              tamucolorstack@gmail.com
+              <span>tamucolorstack@gmail.com</span>
             </a>
             
             <a 
@@ -20,10 +18,8 @@ export default function Page_footer(){
               rel="noopener noreferrer"
               className="footer-link"
             >
-             <a  className="Icon">
               <i className="fa-brands fa-instagram"></i>
-             </a> 
-              instagram.com/tamucolorstack
+              <span>instagram.com/tamucolorstack</span>
             </a>
             
             <a 
@@ -32,10 +28,8 @@ export default function Page_footer(){
               rel="noopener noreferrer"
               className="footer-link"
             >
-              <a className="Icons">
               <i className="fa-brands fa-linkedin"></i>
-              </a>
-              linkedin.com/company/tamucolorstack
+              <span>linkedin.com/company/tamucolorstack</span>
             </a>
           </div>
         </footer>

@@ -7,6 +7,13 @@
     color: white;
     text-align: center;
     padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
 }
 
 .card-image {
@@ -15,6 +22,11 @@
     margin: 0 auto;
     border-radius: 15px;
     overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover .card-image {
+    transform: scale(1.05);
 }
 
 .card-image img {
@@ -30,12 +42,23 @@
 .card-content h2 {
     margin: 10px 0;
     font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.card:hover .card-content h2 {
+    color: #FFD700; /* Gold highlight color */
 }
 
 .card-content p {
     margin: 5px 0;
     font-size: 18px;
     color: #f0f0f0;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.card:hover .card-content p {
+    color: #f8f8f8;
+    transform: translateY(-2px);
 }
 
 .card-content .fa-linkedin {
@@ -53,7 +76,6 @@
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
     cursor: pointer;
 }
-
 
 .card-container {
     display: flex;
