@@ -1,5 +1,5 @@
-
 body {
+
     display:flex;
     margin: 0;
     padding: 0;
@@ -8,16 +8,15 @@ body {
 
 .cstack-header {
     position: relative;
-    width: 100%; 
-    height: auto; 
+    width: 100%;
+    height: 100vh;
+    min-height: 650px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    min-height: 650px;
 }
-
 
 .cstack-header::before {
     content: "";
@@ -29,15 +28,21 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    filter: blur(8px);
+    filter: blur(8px) brightness(0.7);
     transform: scale(1.1);
     z-index: -1;
+    transition: filter 0.5s ease;
 }
 
+.cstack-header:hover::before {
+    filter: blur(6px) brightness(0.8);
+}
 
 span.highlight {
-    color: #fcb532;
-}   
+    color: var(--secondary-color);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
 
 .welcome-content {
     display: flex;
@@ -45,28 +50,54 @@ span.highlight {
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: 10px;
+    gap: 20px;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .welcome-message {
-    color: white;
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
-        1px 1px 0 black;
+    color: var(--light-text);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-family: 'Inter', sans-serif;
-    font-size: 68px;
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
     margin: 0;
+    line-height: 1.2;
 }
 
 .sub-welcome-text {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.95);
     font-family: 'Inter', sans-serif;
-    font-size: 28px;
+    font-size: clamp(1.2rem, 2.5vw, 1.8rem);
     max-width: 80%;
     margin: 0;
     text-align: center;
+    line-height: 1.4;
 }
 
-.block-line {
-    display: block;
-    text-align: center;
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .cstack-header {
+        min-height: 500px;
+    }
+
+    .welcome-content {
+        gap: 15px;
+    }
+
+    .sub-welcome-text {
+        max-width: 90%;
+    }
 }
