@@ -2,7 +2,6 @@
 
 body {
     display:flex;
-    background-image: radial-gradient(circle, #d1d1d1 1px, transparent 1px);
     background-size: 20px 20px;
     background-color: white;
     font-family: 'Inter', 'sans-serif';
@@ -37,9 +36,15 @@ body {
     background-color: #93c5fd; 
     border-radius: 3px;
     font-weight: bold;
+    width: 290px;
+    display: inline;
 }
 
 .paragraph-spacing {
     margin: 50px auto; 
+}
+
+p.statement {
+    display: inline;
 }
 

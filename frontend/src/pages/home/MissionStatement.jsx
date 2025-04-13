@@ -6,9 +6,9 @@ export default function MissionStatement() {
             <p className="bold-text">
                 Founded in 2024, TAMU 
                 <span className="highlight-yellow"> ColorStack </span> 
-                proudly champions its mission to 
-                <span className="highlight-blue"> support and empower </span> 
-                Black, Latinx, and Indigenous students navigating the world of computer science.
+                <p class="statement">proudly champions its mission to </p> 
+                <div className="highlight-blue">support and empower</div> 
+                <p class="statement"> Black, Latinx, and Indigenous students navigating the world of computer science.</p>
             </p>
 
             <p className="bold-text paragraph-spacing">

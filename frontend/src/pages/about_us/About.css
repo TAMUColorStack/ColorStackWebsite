@@ -3,14 +3,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 80px auto 0;
     padding: 40px 20px;
-    height: 100vh;
+    height: auto;
     width: 100%;
 }
 
 .mission-statement-header {
-    font-size: 48px;
+    font-size: 40px;
     margin: 20px 0;
     font-family: 'Inter', sans-serif;
     text-align: center;
