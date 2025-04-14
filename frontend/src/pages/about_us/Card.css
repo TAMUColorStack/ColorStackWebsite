@@ -85,6 +85,20 @@
     padding: 0 5px;
     margin: 0 auto;
     padding: 15px 20px 60px;
-    height:auto;
-    width:100%;
+    height: auto;
+    width: 100%;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .card-container {
+        padding-bottom: 150px; /* Significantly increased bottom padding */
+    }
+}
+
+/* Small mobile devices */
+@media screen and (max-width: 480px) {
+    .card-container {
+        padding-bottom: 200px; /* Much larger bottom padding for small screens */
+    }
 }

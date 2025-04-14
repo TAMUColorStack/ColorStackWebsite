@@ -44,12 +44,12 @@
 /* Mobile responsiveness */
 @media screen and (max-width: 768px) {
   .calendar-container {
-    margin: 20px auto 160px; /* Increased bottom margin */
+    margin: 20px auto 120px; /* Increased bottom margin */
     padding: 10px;
   }
 
   .calendar-wrapper {
-    padding-bottom: 140%;
+    padding-bottom: 140%; /* Taller ratio for mobile */
   }
 
   .calendar-header {
@@ -61,11 +61,11 @@
 /* Small mobile devices */
 @media screen and (max-width: 480px) {
   .calendar-container {
-    margin: 10px auto 200px; /* Much larger bottom margin */
+    margin: 10px auto 150px; /* Much larger bottom margin */
     padding: 5px;
   }
 
   .calendar-wrapper {
-    padding-bottom: 150%;
+    padding-bottom: 150%; /* Even taller ratio for small screens */
   }
 }
