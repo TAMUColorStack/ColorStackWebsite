@@ -3,18 +3,34 @@ import { useNavigate} from 'react-router-dom'
 export default function Navbar(){
     const navigate = useNavigate()
     const goToHome = () => {
+        // First scroll to top
+        document.documentElement.scrollTop = 0;
+        document.body.scrollTop = 0; // For Safari
+        // Then navigate
         navigate('/')
     }
 
     const goToAbout = () =>{
+        // First scroll to top
+        document.documentElement.scrollTop = 0;
+        document.body.scrollTop = 0; // For Safari
+        // Then navigate
         navigate('/about_us')
     }
 
     const goToSignIn = () => {
+        // First scroll to top
+        document.documentElement.scrollTop = 0;
+        document.body.scrollTop = 0; // For Safari
+        // Then navigate
         navigate('/sign_in')
     }
 
     const goToJoinUs = () => {
+        // First scroll to top
+        document.documentElement.scrollTop = 0;
+        document.body.scrollTop = 0; // For Safari
+        // Then navigate
         navigate('/join_us')
     }
 
