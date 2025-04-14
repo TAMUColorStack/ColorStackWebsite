@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; url=/" />
+    <script>
+      // Redirect back to the original path
+      const redirectTo = '/' + location.pathname + location.search + location.hash;
+      sessionStorage.redirect = redirectTo;
+      window.location.href = '/';
+    </script>
+  </head>
+  <body></body>
+</html> 
