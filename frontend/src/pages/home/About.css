@@ -38,11 +38,24 @@ p.about-mission-statement-subtext {
 .highlight-cstack-yellow {
     font-weight: bold;
     color: #fbbf24; 
-    font-weight: bold;
 }
 
 .highlight-maroon {
     font-weight: bold;
     color: #500000; 
-    font-weight: bold;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .about-mission-statement-subtext {
+        font-size: 24px;
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-mission-statement-subtext {
+        font-size: 20px;
+        max-width: 95%;
+    }
 }
