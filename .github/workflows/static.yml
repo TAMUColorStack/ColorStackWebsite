@@ -1,3 +1,4 @@
+#deploy
 name: Deploy Vite site to GitHub Pages
 
 on:
