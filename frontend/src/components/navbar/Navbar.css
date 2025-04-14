@@ -65,6 +65,7 @@
 
 .navbar-links li a:hover {
   color: var(--secondary-color);
+  cursor: pointer;
 }
 
 .navbar-links li a:hover::after {

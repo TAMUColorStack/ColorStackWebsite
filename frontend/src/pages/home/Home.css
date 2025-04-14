@@ -1,35 +1,36 @@
-body {
-
-    display:flex;
+/* Reset default styles */
+html, body {
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
     overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 .cstack-header {
     position: relative;
     width: 100%;
-    height: 100vh;
-    min-height: 650px;
+    height: 100vh; /* Use viewport height */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
 }
 
 .cstack-header::before {
     content: "";
     position: absolute;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    inset: 0; /* Shorthand for top, right, bottom, left: 0 */
     background-image: url("/zachnight1.jpg");
-    background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
     filter: blur(8px) brightness(0.7);
-    transform: scale(1.1);
     z-index: -1;
     transition: filter 0.5s ease;
 }
@@ -90,14 +91,45 @@ span.highlight {
 /* Mobile responsiveness */
 @media screen and (max-width: 768px) {
     .cstack-header {
-        min-height: 500px;
+        min-height: -webkit-fill-available; /* For iOS Safari */
+    }
+
+    .cstack-header::before {
+        background-position: 50% 50%;
+        transform: scale(1.02); /* Slight scale to prevent white edges from blur */
     }
 
     .welcome-content {
-        gap: 15px;
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+        position: relative;
+        z-index: 1;
+    }
+
+    .welcome-message {
+        font-size: clamp(2rem, 8vw, 3rem);
+        padding: 0 10px;
     }
 
     .sub-welcome-text {
-        max-width: 90%;
+        font-size: clamp(1rem, 4vw, 1.5rem);
+        padding: 0 15px;
+        max-width: 100%;
+    }
+}
+
+/* Additional breakpoint for very small devices */
+@media screen and (max-width: 480px) {
+    .cstack-header {
+        min-height: 100vh;
+    }
+
+    .welcome-content {
+        padding: 15px;
+    }
+
+    .welcome-message {
+        font-size: clamp(1.8rem, 3.5vw, 2.5rem);
     }
 }
