@@ -6,19 +6,14 @@ export default function MissionStatement() {
             <p className="bold-text">
                 Founded in 2024, TAMU 
                 <span className="highlight-yellow"> ColorStack </span> 
-                <p class="statement">proudly champions its mission to </p> 
-                <div className="highlight-blue">support and empower</div> 
-                <p class="statement"> Black, Latinx, and Indigenous students navigating the world of computer science.</p>
+                is proud to <span className="highlight-blue">support and uplift</span> Black, Latinx, and Indigenous students pursuing careers in tech.
             </p>
 
             <p className="bold-text paragraph-spacing">
-                More specifically, the 
+                As one of the newest chapters of the national 
                 <span className="highlight-yellow"> ColorStack </span> 
-                chapter @ TAMU serves as a safe space for local 
-                <span className="highlight-yellow"> ColorStack </span> 
-                members to connect and feel included throughout their educational careers.
+                community, we serve as a local hub for connection, empowerment, and inclusion throughout students' academic journeys.
             </p>
         </div>
-        
     );
 }

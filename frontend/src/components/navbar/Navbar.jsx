@@ -45,7 +45,7 @@ export default function Navbar(){
                 <li><a type = 'button' onClick={goToAbout}>About</a></li>
                 {/* <li><a type="button" onClick={ goToSignIn}>Sign In</a></li> */}
                 
-                <li><a type="button" onClick={ goToJoinUs}>Join Us</a></li>
+                <li><a type="button" onClick={ goToJoinUs}>Join</a></li>
                 
 
             </ul>

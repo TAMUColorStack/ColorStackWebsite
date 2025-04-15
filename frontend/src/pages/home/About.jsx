@@ -5,10 +5,10 @@ export default function About(){
         <>  
             <div className="about-mission-container">
                 <p className="about-mission-statement-subtext">
-                    Our mission is to <span className="bold">empower</span> Black, Latinx, and Indigenous technologists to graduate and <span className="bold">thrive in technical careers</span> through tailored resources like <span className="bold">resume workshops, company networking events, and interview prep.</span>
+                    Our mission is to help our members<span className="bold"> graduate </span>and thrive in technical fields by offering tailored resources such as <span className="bold">resume workshops, interview prep, networking events, and so much more.</span>
                 </p>
                 <p className="about-mission-statement-subtext">
-                    As the <span className="bold">newest</span> and <span className="bold">proudest</span> chapter of <span className="highlight-cstack-yellow">ColorStack</span>, we are <span className="bold">dedicated</span> to <span className="bold">growing</span> our community across <span className="highlight-maroon">Texas A&M’s</span> campus and building an inclusive campus environment that opens doors to <span className="bold">new opportunities.</span>
+                    We're <span className="bold">committed</span> to <span className="bold">growing</span> our presence across <span className="highlight-maroon">Texas A&M</span> and fostering a <span className="bold">welcoming</span> environment that <span className="bold">opens doors to new opportunities</span> for all.
                 </p>
             </div>
         </>
