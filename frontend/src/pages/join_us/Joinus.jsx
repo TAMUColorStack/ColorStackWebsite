@@ -2,16 +2,7 @@ import { useEffect } from 'react'
 import './Joinus.css'
 
 export default function Joinus(){
-    // useEffect(() => {
-    //     if (window.instgrm && window.instgrm.Embeds && typeof window.instgrm.Embeds.process === 'function') {
-    //         window.instgrm.Embeds.process();
-    //       } else {
-    //         const script = document.createElement('script');
-    //         script.async = true;
-    //         script.src = 'https://www.instagram.com/embed.js';
-    //         document.body.appendChild(script);
-    //       }
-    //   }, []);
+    
     return (
         <>  
             <div className="join-us-container">
@@ -43,9 +34,7 @@ export default function Joinus(){
                     <li>🤝 Need a referral? You can DM any officer or ask in our Discord!</li>
                 </ol>
 
-                {/* <p className="join-us-text">
-                    📢 Stay updated with all our announcements and events through our Discord and Instagram!
-                </p> */}
+                
 
                 <div className="questions-section">
                     <h3 className="join-us-subheader">❓ Have Questions?</h3>
